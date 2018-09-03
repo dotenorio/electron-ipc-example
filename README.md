@@ -6,6 +6,8 @@ You can learn more about ipc within the:
 - [ipcMain](https://electronjs.org/docs/api/ipc-main)
 - [ipcRenderer](https://electronjs.org/docs/api/ipc-renderer)
 
+_This project is base in [electron/electron-quick-start](https://github.com/electron/electron-quick-start)_
+
 ## To Use
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
