@@ -1,0 +1,64 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('earth.gif') center -130px no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  padding: 15px;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.clear {
+  clear: both;
+  zoom: 1;
+}
+
+.space {
+  width: 100%;
+  display: block;
+  height: 15px;
+}
+
+.box {
+  text-align: center;
+}
+
+.pull-left {
+  float: left;
+}
+
+.box-button {
+  border-radius: 5px;
+  border: 1px solid #CCC;
+  padding: 15px;
+  margin: 0 90px;
+  text-align: center;
+  width: calc(40vw / 2);
+  display: inline-block;
+}
+
+.see-code {
+  text-align: center;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#ping-good span {
+  color: green;
+}
+
+#ping-bad span {
+  color: red;
+}

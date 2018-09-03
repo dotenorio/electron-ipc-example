@@ -1,3 +1,9 @@
-// This file is required by the index.html file and will
-// be executed in the renderer process for that window.
-// All of the Node.js APIs are available in this process.
+const { ipcRenderer } = require('electron')
+
+document.getElementById('ping-good').onclick = () => {
+  document.getElementById('ping-good-response').innerText = ipcRenderer.sendSync('ping-good', 'ping')
+}
+
+document.getElementById('ping-bad').onclick = () => {
+  document.getElementById('ping-bad-response').innerText = ipcRenderer.sendSync('ping-bad', 'ping')
+}

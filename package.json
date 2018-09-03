@@ -1,20 +1,20 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-ipc-example",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A ipc Electron application",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/electron/electron-ipc-example",
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "ipc",
+    "ipcMain",
+    "ipcRenderer",
+    "example"
   ],
-  "author": "GitHub",
+  "author": "dotenorio",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^2.0.0"

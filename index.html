@@ -2,17 +2,39 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>ipcMain & ipcRenderer example</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <h1>ipcMain & ipcRenderer example</h1>
+    
+    <div class="box">
+      <div class="box-button">
+        <button id="ping-good">Ping <span>GOOD</span></button>
+        <span class="space"></span>
+        <p id="ping-good-response">Click on button</p>
+      </div>
+      <div class="box-button">
+        <button id="ping-bad">Ping <span>BAD</span></button>
+        <span class="space"></span>
+        <p id="ping-bad-response">Click on button</p>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="clear"></div>
+
+    <span class="space"></span>
+    <span class="space"></span>
+    <span class="space"></span>
+
+    <p class="see-code">
+      See the code in
+      <br>
+      <a href="https://github.com/dotenorio/electron-ipc-example">https://github.com/dotenorio/electron-ipc-example</a>
+    </p>
 
     <script>
-      // You can also require other files to run in this process
       require('./renderer.js')
     </script>
   </body>
