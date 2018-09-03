@@ -3,7 +3,9 @@
 **Clone and run for a quick way to see Electron ipcMain and ipcRenderer in action.**
 
 You can learn more about ipc within the:
+
 [ipcMain](https://electronjs.org/docs/api/ipc-main)
+
 [ipcRenderer](https://electronjs.org/docs/api/ipc-renderer)
 
 ## To Use
