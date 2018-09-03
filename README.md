@@ -6,7 +6,7 @@ You can learn more about ipc within the:
 - [ipcMain](https://electronjs.org/docs/api/ipc-main)
 - [ipcRenderer](https://electronjs.org/docs/api/ipc-renderer)
 
-_This project is base in [electron/electron-quick-start](https://github.com/electron/electron-quick-start)_
+_This project is based in [electron/electron-quick-start](https://github.com/electron/electron-quick-start)_
 
 ## To Use
 
