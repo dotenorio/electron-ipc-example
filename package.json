@@ -6,7 +6,10 @@
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-ipc-example",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron/electron-ipc-example.git"
+  },
   "keywords": [
     "Electron",
     "ipc",
@@ -18,5 +21,10 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^2.0.8"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/electron/electron-ipc-example/issues"
+  },
+  "homepage": "https://github.com/electron/electron-ipc-example#readme",
+  "dependencies": {}
 }
