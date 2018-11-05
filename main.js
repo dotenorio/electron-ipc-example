@@ -29,9 +29,9 @@ app.on('activate', () => {
 })
 
 ipcMain.on('ping-good', event => {
-  event.returnValue = 'pong'
   setTimeout(() => {
     console.log('GOOD finshed!')
+    event.sender.send('ping-good-reply', 'pong')
   }, 5000)
 })
 
