@@ -31,7 +31,7 @@ app.on('activate', () => {
 // Receive async message from renderer
 // See file renderer.js on line 3
 ipcMain.on('ping-good', event => {
-  // It's so good because below have a delay 5s to execute, and this don't lock rendereder :(
+  // It's so good because below have a delay 5s to execute, and this don't lock rendereder :)
   setTimeout(() => {
     console.log('GOOD finshed!')
     // Send reply to a renderer
